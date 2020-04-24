@@ -3,8 +3,10 @@ const app = express();
 
 app.get("/days", (req, res) => {
   const days = {
-    yesterday: "express",
-    today: "api",
+    monday: "express",
+    tuesday: "api",
+    wednesday: "git",
+    thursday: "react",
   };
   res.send(days);
 });
